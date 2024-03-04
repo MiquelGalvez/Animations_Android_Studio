@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        // Iniciem la animacio de fadein
         val fade = AnimationUtils.loadAnimation(this, R.anim.fade_in)
         binding.root.startAnimation(fade)
 
